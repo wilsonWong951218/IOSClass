@@ -14,6 +14,10 @@
 		E2930B2A20564FB7003F65EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2930B2820564FB7003F65EA /* LaunchScreen.storyboard */; };
 		E2930B3520564FB7003F65EA /* IOSClassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2930B3420564FB7003F65EA /* IOSClassTests.swift */; };
 		E2930B4020564FB7003F65EA /* IOSClassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2930B3F20564FB7003F65EA /* IOSClassUITests.swift */; };
+		E2930B4F2056570A003F65EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2930B1F20564FB7003F65EA /* AppDelegate.swift */; };
+		E2930B502056570B003F65EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2930B1F20564FB7003F65EA /* AppDelegate.swift */; };
+		E2930B5420565CFA003F65EA /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2930B5320565CFA003F65EA /* Controller.swift */; };
+		E2930B5620565ECE003F65EA /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2930B5520565ECE003F65EA /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,8 @@
 		E2930B3B20564FB7003F65EA /* IOSClassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSClassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2930B3F20564FB7003F65EA /* IOSClassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSClassUITests.swift; sourceTree = "<group>"; };
 		E2930B4120564FB7003F65EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2930B5320565CFA003F65EA /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		E2930B5520565ECE003F65EA /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,8 @@
 				E2930B1F20564FB7003F65EA /* AppDelegate.swift */,
 				E2930B2120564FB7003F65EA /* ViewController.swift */,
 				E2930B2320564FB7003F65EA /* Main.storyboard */,
+				E2930B5320565CFA003F65EA /* Controller.swift */,
+				E2930B5520565ECE003F65EA /* Card.swift */,
 				E2930B2620564FB7003F65EA /* Assets.xcassets */,
 				E2930B2820564FB7003F65EA /* LaunchScreen.storyboard */,
 				E2930B2B20564FB7003F65EA /* Info.plist */,
@@ -259,8 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2930B5420565CFA003F65EA /* Controller.swift in Sources */,
 				E2930B2220564FB7003F65EA /* ViewController.swift in Sources */,
 				E2930B2020564FB7003F65EA /* AppDelegate.swift in Sources */,
+				E2930B5620565ECE003F65EA /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2930B4F2056570A003F65EA /* AppDelegate.swift in Sources */,
 				E2930B3520564FB7003F65EA /* IOSClassTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2930B502056570B003F65EA /* AppDelegate.swift in Sources */,
 				E2930B4020564FB7003F65EA /* IOSClassUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
